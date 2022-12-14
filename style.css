@@ -1,0 +1,38 @@
+body {
+    text-align: center;
+}
+
+#new-book {
+    margin-bottom: 20px;
+}
+
+#books {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.book.template {
+    display: none;
+}
+
+form {
+    padding: 10px;
+}
+
+input {
+    display: block;
+    margin: auto;
+    width: 250px;
+}
+
+.book {
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.book * {
+    margin-bottom: 5px;
+}
